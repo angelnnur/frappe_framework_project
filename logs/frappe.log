@@ -1,0 +1,722 @@
+2025-08-11 21:28:28,575 ERROR frappe Could not take error snapshot: current transaction is aborted, commands ignored until end of transaction block
+
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Frappe App","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"481ui6cksp","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"fieldtype":"Data","fieldname":"наименование","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField","label":"name"},{"docstatus":0,"doctype":"DocField","name":"5lg1e5emfj","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"инн","label":"inn","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg5d9qfqf","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"кпп","label":"kpp","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg3a389rp","__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"адрес","label":"address","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0}],"permissions":[{"name":"481ao7as0e","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Client","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/app.py", line 121, in application
+    response = frappe.api.handle(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/__init__.py", line 60, in handle
+    data = endpoint(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 52, in handle
+    data = execute_cmd(cmd)
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/__init__.py", line 1127, in call
+    return fn(*args, **newargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/typing_validations.py", line 36, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/desk/form/save.py", line 43, in savedocs
+    doc.save()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 485, in save
+    return self._save(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 538, in _save
+    self.run_post_save_methods()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1323, in run_post_save_methods
+    self.run_method("on_update")
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1129, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1526, in composer
+    return composed(self, method, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1504, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1126, in fn
+    return method_object(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 526, in on_update
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 523, in on_update
+    frappe.db.updatedb(self.name, Meta(self))
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 374, in updatedb
+    db_table.sync()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/schema.py", line 48, in sync
+    self.alter()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 189, in alter
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 167, in alter
+    frappe.db.sql(final_alter_query)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "инн" cannot be cast automatically to type integer
+HINT:  You might need to specify "USING "инн"::integer".
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+                ^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/utils/__init__.py", line 217, in wrapper
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 110, in get_doc
+    return get_doc_from_dict(kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 139, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 83, in get_controller
+    site_controllers[doctype] = import_controller(doctype)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 94, in import_controller
+    doctype_info = frappe.db.get_value("DocType", doctype, ("module", "custom", "is_tree"), as_dict=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 554, in get_value
+    result = self.get_values(
+             ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 667, in get_values
+    out = query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-11 21:52:12,871 ERROR frappe Could not take error snapshot: current transaction is aborted, commands ignored until end of transaction block
+
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Frappe App","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"481ui6cksp","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"fieldtype":"Data","fieldname":"наименование","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField","label":"name"},{"docstatus":0,"doctype":"DocField","name":"5lg1e5emfj","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"инн","label":"inn","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg5d9qfqf","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"кпп","label":"kpp","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg3a389rp","__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"адрес","label":"address","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0}],"permissions":[{"name":"481ao7as0e","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Client","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/app.py", line 121, in application
+    response = frappe.api.handle(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/__init__.py", line 60, in handle
+    data = endpoint(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 52, in handle
+    data = execute_cmd(cmd)
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/__init__.py", line 1127, in call
+    return fn(*args, **newargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/typing_validations.py", line 36, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/desk/form/save.py", line 43, in savedocs
+    doc.save()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 485, in save
+    return self._save(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 538, in _save
+    self.run_post_save_methods()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1323, in run_post_save_methods
+    self.run_method("on_update")
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1129, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1526, in composer
+    return composed(self, method, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1504, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1126, in fn
+    return method_object(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 526, in on_update
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 523, in on_update
+    frappe.db.updatedb(self.name, Meta(self))
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 374, in updatedb
+    db_table.sync()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/schema.py", line 48, in sync
+    self.alter()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 189, in alter
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 167, in alter
+    frappe.db.sql(final_alter_query)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "инн" cannot be cast automatically to type integer
+HINT:  You might need to specify "USING "инн"::integer".
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+                ^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/utils/__init__.py", line 217, in wrapper
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 110, in get_doc
+    return get_doc_from_dict(kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 139, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 83, in get_controller
+    site_controllers[doctype] = import_controller(doctype)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 94, in import_controller
+    doctype_info = frappe.db.get_value("DocType", doctype, ("module", "custom", "is_tree"), as_dict=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 554, in get_value
+    result = self.get_values(
+             ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 667, in get_values
+    out = query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-11 21:52:33,317 ERROR frappe Could not take error snapshot: current transaction is aborted, commands ignored until end of transaction block
+
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Frappe App","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"481ui6cksp","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"fieldtype":"Data","fieldname":"наименование","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField","label":"name"},{"docstatus":0,"doctype":"DocField","name":"5lg1e5emfj","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"инн","label":"inn","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg5d9qfqf","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"кпп","label":"kpp","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg3a389rp","__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"адрес","label":"address","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0}],"permissions":[{"name":"481ao7as0e","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Client","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/app.py", line 121, in application
+    response = frappe.api.handle(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/__init__.py", line 60, in handle
+    data = endpoint(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 52, in handle
+    data = execute_cmd(cmd)
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/__init__.py", line 1127, in call
+    return fn(*args, **newargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/typing_validations.py", line 36, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/desk/form/save.py", line 43, in savedocs
+    doc.save()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 485, in save
+    return self._save(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 538, in _save
+    self.run_post_save_methods()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1323, in run_post_save_methods
+    self.run_method("on_update")
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1129, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1526, in composer
+    return composed(self, method, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1504, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1126, in fn
+    return method_object(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 526, in on_update
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 523, in on_update
+    frappe.db.updatedb(self.name, Meta(self))
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 374, in updatedb
+    db_table.sync()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/schema.py", line 48, in sync
+    self.alter()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 189, in alter
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 167, in alter
+    frappe.db.sql(final_alter_query)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "инн" cannot be cast automatically to type integer
+HINT:  You might need to specify "USING "инн"::integer".
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+                ^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/utils/__init__.py", line 217, in wrapper
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 110, in get_doc
+    return get_doc_from_dict(kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 139, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 83, in get_controller
+    site_controllers[doctype] = import_controller(doctype)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 94, in import_controller
+    doctype_info = frappe.db.get_value("DocType", doctype, ("module", "custom", "is_tree"), as_dict=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 554, in get_value
+    result = self.get_values(
+             ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 667, in get_values
+    out = query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-11 21:53:00,379 ERROR frappe Could not take error snapshot: current transaction is aborted, commands ignored until end of transaction block
+
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Frappe App","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"481ui6cksp","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"fieldtype":"Data","fieldname":"наименование","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField","label":"name"},{"docstatus":0,"doctype":"DocField","name":"5lg1e5emfj","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"инн","label":"inn","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg5d9qfqf","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"кпп","label":"kpp","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg3a389rp","__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"адрес","label":"address","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","length":0,"columns":0}],"permissions":[{"name":"481ao7as0e","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:24:55.988255","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Client","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/app.py", line 121, in application
+    response = frappe.api.handle(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/__init__.py", line 60, in handle
+    data = endpoint(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 52, in handle
+    data = execute_cmd(cmd)
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/__init__.py", line 1127, in call
+    return fn(*args, **newargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/typing_validations.py", line 36, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/desk/form/save.py", line 43, in savedocs
+    doc.save()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 485, in save
+    return self._save(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 538, in _save
+    self.run_post_save_methods()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1323, in run_post_save_methods
+    self.run_method("on_update")
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1129, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1526, in composer
+    return composed(self, method, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1504, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 1126, in fn
+    return method_object(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 526, in on_update
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 523, in on_update
+    frappe.db.updatedb(self.name, Meta(self))
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 374, in updatedb
+    db_table.sync()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/schema.py", line 48, in sync
+    self.alter()
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 189, in alter
+    raise e
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/schema.py", line 167, in alter
+    frappe.db.sql(final_alter_query)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "инн" cannot be cast automatically to type integer
+HINT:  You might need to specify "USING "инн"::integer".
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 87, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/utils/error.py", line 62, in log_error
+    error_log = frappe.get_doc(
+                ^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/utils/__init__.py", line 217, in wrapper
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 110, in get_doc
+    return get_doc_from_dict(kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/document.py", line 139, in get_doc_from_dict
+    controller = get_controller(data["doctype"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 83, in get_controller
+    site_controllers[doctype] = import_controller(doctype)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/model/base_document.py", line 94, in import_controller
+    doctype_info = frappe.db.get_value("DocType", doctype, ("module", "custom", "is_tree"), as_dict=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 554, in get_value
+    result = self.get_values(
+             ^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 667, in get_values
+    out = query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/query_builder/utils.py", line 85, in execute_query
+    result = frappe.local.db.sql(query, params, *args, **kwargs)  # nosemgrep
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/postgres/database.py", line 233, in sql
+    return super().sql(modify_query(query), modify_values(values), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 271, in sql
+    self.execute_query(query, values)
+  File "/mnt/d/FrappeFramework/frappe_project/apps/frappe/frappe/database/database.py", line 365, in execute_query
+    return self._cursor.execute(query, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+2025-08-11 21:53:43,999 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:53:40.173240","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Frappe App","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"481ui6cksp","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:53:40.173240","modified_by":"Administrator","docstatus":0,"idx":1,"fieldtype":"Data","fieldname":"name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField","label":"name"},{"docstatus":0,"doctype":"DocField","name":"5lg1e5emfj","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"inn","label":"inn","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:53:40.173240","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg5d9qfqf","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"kpp","label":"kpp","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:53:40.173240","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg3a389rp","__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"address","label":"address","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:53:40.173240","modified_by":"Administrator","length":0,"columns":0}],"permissions":[{"name":"481ao7as0e","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:53:40.173240","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Client","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-11 21:54:41,724 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:54:17.165363","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"protect_attached_files":0,"naming_rule":"","allow_rename":1,"module":"Frappe App","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"grid_page_length":50,"rows_threshold_for_grid_search":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","row_format":"Dynamic","doctype":"DocType","fields":[{"name":"481ui6cksp","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:54:17.165363","modified_by":"Administrator","docstatus":0,"idx":1,"fieldtype":"Data","fieldname":"name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","doctype":"DocField","label":"Наименование"},{"docstatus":0,"doctype":"DocField","name":"5lg1e5emfj","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"inn","label":"ИНН","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:54:17.165363","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg5d9qfqf","__unsaved":1,"owner":"Administrator","fieldtype":"Int","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"kpp","label":"КПП","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:54:17.165363","modified_by":"Administrator","length":0,"columns":0},{"docstatus":0,"doctype":"DocField","name":"5lg3a389rp","__unsaved":1,"owner":"Administrator","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"sticky":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"Client","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"address","label":"Адрес","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:54:17.165363","modified_by":"Administrator","length":0,"columns":0}],"permissions":[{"name":"481ao7as0e","owner":"Administrator","creation":"2025-08-11 15:22:30.419266","modified":"2025-08-11 15:54:17.165363","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Client","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"actions":[],"links":[],"states":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-12 18:23:58,697 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:24:06,148 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:24:48,270 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'fсбербанк', 'cmd': 'frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:25:10,363 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.my_module.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:25:24,410 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:25:43,093 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'fсбербанк', 'cmd': 'get_party_suggestions'}
+2025-08-12 18:29:58,849 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,t', 'cmd': 'frappe_app.frappe_app.doctype.client.client.client.get_party_suggestions'}
+2025-08-12 18:30:55,601 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'name': 'Client_08-2025-0003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-12 18:31:03,549 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'name': 'Client_08-2025-0003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-12 18:37:04,581 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'name': 'Client_08-2025-0003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-12 18:37:43,651 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберб', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:37:43,739 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:37:43,743 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '@frappe.whitelist()', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:37:43,743 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:37:43,786 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:37:43,941 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:41:10,600 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербак', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:10,600 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберб', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:10,601 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:10,602 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:10,602 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:10,602 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:10,649 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:10,651 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:14,971 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '@frappe.whitelist()', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:41:59,476 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,t', 'cmd': 'frappe_app.frappe_app.doctype.client.client.client.get_party_suggestions'}
+2025-08-12 18:41:59,643 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,tj', 'cmd': 'frappe_app.frappe_app.doctype.client.client.client.get_party_suggestions'}
+2025-08-12 18:42:22,204 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'Сбе', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:42:22,361 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'Сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.Client.get_party_suggestions'}
+2025-08-12 18:42:32,744 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбр', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:42:37,291 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:42:37,626 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:42:58,539 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:42:58,642 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 18:44:47,318 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"7707083893"}', 'cmd': 'frappe.client.call'}
+2025-08-12 18:44:47,413 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"7707083893"}', 'cmd': 'frappe.client.call'}
+2025-08-12 18:47:43,750 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"7707083893"}', 'cmd': 'frappe.client.call'}
+2025-08-12 18:47:43,751 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"7707083893"}', 'cmd': 'frappe.client.call'}
+2025-08-12 18:47:56,238 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"7707083893"}', 'cmd': 'frappe.client.call'}
+2025-08-12 18:47:56,334 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"7707083893"}', 'cmd': 'frappe.client.call'}
+2025-08-12 18:49:17,698 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"СБЕ"}', 'cmd': 'frappe.client.run_method'}
+2025-08-12 18:49:17,699 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"СБЕР"}', 'cmd': 'frappe.client.run_method'}
+2025-08-12 18:49:40,579 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"sbe"}', 'cmd': 'frappe_app.client.run_method'}
+2025-08-12 18:49:40,712 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"sber"}', 'cmd': 'frappe_app.client.run_method'}
+2025-08-12 18:50:02,003 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"svr"}', 'cmd': 'frappe.client.run_method'}
+2025-08-12 21:59:14,906 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': 'Client', 'name': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"fаа"}', 'cmd': 'frappe.client.run_method'}
+2025-08-12 22:01:14,070 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,071 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,072 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберб', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,073 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,074 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сма', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,075 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,155 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,187 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:03:04,898 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'name': 'Client_08-2025-0003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-12 22:06:12,857 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'dt': 'Client', 'dn': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"сбербан"}', 'cmd': 'frappe.client.run_doc_method'}
+2025-08-12 22:06:12,908 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'dt': 'Client', 'dn': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"сбербанк"}', 'cmd': 'frappe.client.run_doc_method'}
+2025-08-12 22:06:12,908 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'dt': 'Client', 'dn': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"сбербанк"}', 'cmd': 'frappe.client.run_doc_method'}
+2025-08-12 22:07:06,908 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'get_party_suggestions'}
+2025-08-13 09:42:16,361 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-08-13 11:33:06,218 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,', 'cmd': 'get_party_suggestions'}
+2025-08-13 11:33:06,220 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбео', 'cmd': 'get_party_suggestions'}
+2025-08-13 11:33:06,221 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'get_party_suggestions'}
+2025-08-13 12:05:47,562 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'name': 'new-client-uieydsvmvd', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-13 16:17:05,325 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-08-13 16:18:24,258 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ысбе"}', 'method': 'get_suggestions', 'args': '{"query":"сбер"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:24,349 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'ысб', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ы"}', 'method': 'get_suggestions', 'args': '{"query":"ысб"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:24,350 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ысбе"}', 'method': 'get_suggestions', 'args': '{"query":"сбе"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:24,351 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'ысбе', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ысб"}', 'method': 'get_suggestions', 'args': '{"query":"ысбе"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:42,305 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-ycntynwunv","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"сбе"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:42,484 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-ycntynwunv","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"сбер"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:30,992 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,t', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"c,th"}', 'method': 'get_suggestions', 'args': '{"query":"c,t","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:30,992 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,t', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"c,t","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:30,992 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,th', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"c,th","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:31,381 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'sbe', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":""}', 'method': 'get_suggestions', 'args': '{"query":"sbe","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:31,415 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'sber', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":""}', 'method': 'get_suggestions', 'args': '{"query":"sber","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 17:25:01,835 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"ПАО СБЕРБАНК","inn":"7707083893","kpp":"773601001","address":"й","doctype":"Client","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-13 17:26:31,583 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:26:23.481Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:26:38,838 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"ПАО СБЕРБАНК","inn":"7707083893","kpp":"773601001","address":"й","doctype":"Client","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-13 17:27:04,538 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:27:01.451Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:30:39,162 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:30:21.436Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:32:09,285 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:32:06.917Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:34:08,699 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:33:57.899Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:36:05,666 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"ПАО СБЕРБАНК","inn":7707083893,"kpp":773601001,"address":"г Москва, ул Вавилова, д 19","doctype":"Client","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

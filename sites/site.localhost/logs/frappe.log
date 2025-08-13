@@ -1,0 +1,195 @@
+2025-08-12 22:01:14,071 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,072 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберб', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,073 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,074 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сма', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,075 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,074 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сма', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,073 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,075 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,155 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,075 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,187 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,155 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,074 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сма', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,187 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,155 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,075 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сберба', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,187 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,155 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:14,187 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,943 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:01:33,944 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербан', 'cmd': 'frappe_app.frappe_app.doctype.client.client.get_party_suggestions'}
+2025-08-12 22:03:04,898 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'name': 'Client_08-2025-0003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-12 22:06:12,857 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'dt': 'Client', 'dn': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"сбербан"}', 'cmd': 'frappe.client.run_doc_method'}
+2025-08-12 22:06:12,908 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'dt': 'Client', 'dn': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"сбербанк"}', 'cmd': 'frappe.client.run_doc_method'}
+2025-08-12 22:06:12,908 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'dt': 'Client', 'dn': 'Client_08-2025-0003', 'method': 'get_party_suggestions', 'args': '{"query":"сбербанк"}', 'cmd': 'frappe.client.run_doc_method'}
+2025-08-12 22:07:06,908 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбербанк', 'cmd': 'get_party_suggestions'}
+2025-08-13 09:42:16,361 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-08-13 11:33:06,218 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,', 'cmd': 'get_party_suggestions'}
+2025-08-13 11:33:06,220 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбео', 'cmd': 'get_party_suggestions'}
+2025-08-13 11:33:06,221 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'cmd': 'get_party_suggestions'}
+2025-08-13 12:05:47,562 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'name': 'new-client-uieydsvmvd', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-08-13 16:17:05,325 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doctype': 'Client', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-08-13 16:18:24,258 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ысбе"}', 'method': 'get_suggestions', 'args': '{"query":"сбер"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:24,349 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'ысб', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ы"}', 'method': 'get_suggestions', 'args': '{"query":"ысб"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:24,350 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ысбе"}', 'method': 'get_suggestions', 'args': '{"query":"сбе"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:24,351 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'ысбе', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-dboihpvjak","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"ысб"}', 'method': 'get_suggestions', 'args': '{"query":"ысбе"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:42,305 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбе', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-ycntynwunv","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"сбе"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:18:42,484 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'сбер', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-ycntynwunv","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"сбер"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:30,992 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,t', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":"c,th"}', 'method': 'get_suggestions', 'args': '{"query":"c,t","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:30,992 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,t', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"c,t","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:30,992 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'c,th', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator"}', 'method': 'get_suggestions', 'args': '{"query":"c,th","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:31,381 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'sbe', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":""}', 'method': 'get_suggestions', 'args': '{"query":"sbe","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 16:28:31,415 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': 'sber', 'field': 'client_name', 'docs': '{"docstatus":0,"doctype":"Client","name":"new-client-asaoyzdxjj","__islocal":1,"__unsaved":1,"owner":"Administrator","client_name":""}', 'method': 'get_suggestions', 'args': '{"query":"sber","field":"client_name"}', 'cmd': 'run_doc_method'}
+2025-08-13 17:25:01,835 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"ПАО СБЕРБАНК","inn":"7707083893","kpp":"773601001","address":"й","doctype":"Client","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-13 17:26:31,583 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:26:23.481Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:26:38,838 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"ПАО СБЕРБАНК","inn":"7707083893","kpp":"773601001","address":"й","doctype":"Client","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-08-13 17:27:04,538 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:27:01.451Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:30:39,162 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:30:21.436Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:32:09,285 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:32:06.917Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:34:08,699 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'query': '1', 'docs': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"сбербан","inn":1,"kpp":0,"address":"й","doctype":"Client","__last_sync_on":"2025-08-13T14:33:57.899Z"}', 'method': 'get_address_by_inn', 'args': '{"query":1}', 'cmd': 'run_doc_method'}
+2025-08-13 17:36:05,666 ERROR frappe New Exception collected in error log
+Site: site.localhost
+Form Dict: {'doc': '{"name":"Client_08-2025-0003","owner":"Administrator","creation":"2025-08-12 12:05:43.426229","modified":"2025-08-12 16:06:09.744527","modified_by":"Administrator","docstatus":0,"idx":0,"client_name":"ПАО СБЕРБАНК","inn":7707083893,"kpp":773601001,"address":"г Москва, ул Вавилова, д 19","doctype":"Client","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

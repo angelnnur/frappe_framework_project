@@ -1,0 +1,24 @@
+set -o pipefail; /usr/bin/pg_dump postgresql://_a498e9f732ec5a23:**********@127.0.0.1:5432/_a498e9f732ec5a23 | /usr/bin/gzip >> ./site.localhost/private/backups/20250811_180014-site_localhost-database.sql.gz
+
+Backup Summary for site.localhost at 2025-08-11 18:00:14.467573
+Config  : /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250811_180014-site_localhost-site_config_backup.json 128.0B
+Database: /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250811_180014-site_localhost-database.sql.gz 229.3KiB
+Backup for Site site.localhost has been successfully completed
+set -o pipefail; /usr/bin/pg_dump postgresql://_a498e9f732ec5a23:**********@127.0.0.1:5432/_a498e9f732ec5a23 | /usr/bin/gzip >> ./site.localhost/private/backups/20250812_060010-site_localhost-database.sql.gz
+
+Backup Summary for site.localhost at 2025-08-12 06:00:14.377621
+Config  : /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250812_060010-site_localhost-site_config_backup.json 128.0B
+Database: /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250812_060010-site_localhost-database.sql.gz 231.6KiB
+Backup for Site site.localhost has been successfully completed
+set -o pipefail; /usr/bin/pg_dump postgresql://_a498e9f732ec5a23:**********@127.0.0.1:5432/_a498e9f732ec5a23 | /usr/bin/gzip >> ./site.localhost/private/backups/20250812_120011-site_localhost-database.sql.gz
+
+Backup Summary for site.localhost at 2025-08-12 12:00:11.842888
+Config  : /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250812_120011-site_localhost-site_config_backup.json 128.0B
+Database: /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250812_120011-site_localhost-database.sql.gz 233.0KiB
+Backup for Site site.localhost has been successfully completed
+set -o pipefail; /usr/bin/pg_dump postgresql://_a498e9f732ec5a23:**********@127.0.0.1:5432/_a498e9f732ec5a23 | /usr/bin/gzip >> ./site.localhost/private/backups/20250813_060008-site_localhost-database.sql.gz
+
+Backup Summary for site.localhost at 2025-08-13 06:00:08.765435
+Config  : /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250813_060008-site_localhost-site_config_backup.json 128.0B
+Database: /mnt/d/FrappeFramework/frappe_project/sites/site.localhost/private/backups/20250813_060008-site_localhost-database.sql.gz 246.2KiB
+Backup for Site site.localhost has been successfully completed
