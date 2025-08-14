@@ -100,6 +100,10 @@ function set_selected_values(frm, values) {
         frm.set_value('inn', values.inn || '');
     if(values.kpp)
         frm.set_value('kpp', values.kpp || '');
-    if(values.value)
+    if(values.value){
         frm.set_value('address', values.value);
+    } else {
+        frm.set_value('address', '');
+    }
+    
 }
